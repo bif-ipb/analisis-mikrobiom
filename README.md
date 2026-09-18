@@ -1,5 +1,7 @@
 # Analisis Mikrobiom 16S rRNA
 
+[![Buka di Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bif-ipb/analisis-mikrobiom/blob/main/analisis_mikrobiom.ipynb)
+
 Notebook praktikum untuk mengotomatisasi analisis data mikrobiom 16S rRNA dari NCBI SRA, mulai dari pengambilan metadata hingga analisis diversitas.
 
 ## Cakupan
@@ -40,6 +42,11 @@ MODE = "lengkap"   # Memproses seluruh 26 run
 
 Notebook disetel ke mode `lengkap`. Gunakan mode `uji` untuk pemeriksaan awal pada komputer baru.
 
+
+### Menjalankan di Google Colab
+
+Klik badge **Buka di Google Colab** di bagian atas README. Colab akan membuka notebook langsung dari branch `main`. Simpan salinan ke Google Drive sebelum mengedit agar perubahan dan hasil eksekusi tidak hilang ketika runtime berakhir.
+
 ## Galaxy Australia
 
 Tahap Kraken2 menggunakan [Galaxy Australia](https://usegalaxy.org.au/). Buat API key dari akun Galaxy Australia, kemudian masukkan melalui prompt `getpass` ketika diminta. API key tidak ditulis ke notebook.
@@ -61,8 +68,8 @@ Pada Google Colab, direktori `/content` akan hilang ketika runtime dihapus. Simp
 
 ## Kontributor
 
-- Prof. Wisnu Ananta Kusuma
-- Said Taufik
-- Gilland
-- Sinda
+- Prof. Dr.Eng. Wisnu Ananta Kusuma, S.T., M.T.
+- Said Thaufik Rizaldi, S.Kom., M.Kom.
+- Gilland Fausta Putra Achyar, S.Mat., M.Kom.
+- Sinda Cahyani, S.Si.
 
