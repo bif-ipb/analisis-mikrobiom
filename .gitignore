@@ -1,0 +1,26 @@
+# Data and generated analysis
+mikrobioma_ncbi/
+data/
+*.fastq
+*.fastq.gz
+*.fasta
+*.fa
+*.sra
+*.logfile
+
+# Secrets and local configuration
+.env
+*.key
+galaxy_*_state.json
+
+# Notebook and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
