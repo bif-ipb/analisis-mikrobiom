@@ -59,13 +59,6 @@ Semua hasil disimpan di direktori `mikrobioma_ncbi/`. Direktori ini tidak disert
 
 Pada Google Colab, direktori `/content` akan hilang ketika runtime dihapus. Simpan hasil penting ke Google Drive atau penyimpanan lain sebelum mereset runtime.
 
-## Catatan Reproduksibilitas
-
-- Input Kraken2 adalah `good.fasta` hasil `Screen.seqs` agar kelimpahan read tidak hilang.
-- `Unique.seqs` tetap dijalankan sebagai tahap pemeriksaan, tetapi `unique.fasta` tidak digunakan langsung untuk estimasi kelimpahan.
-- Bracken hanya boleh dijalankan dengan distribusi k-mer yang kompatibel dengan database Kraken2.
-- Gangguan koneksi NCBI akan dicoba ulang dan kegagalan satu run tidak menghentikan run lainnya.
-
 ## Kontributor
 
 - Prof. Dr.Eng. Wisnu Ananta Kusuma, S.T., M.T.
